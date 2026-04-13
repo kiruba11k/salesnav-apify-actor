@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "salesnav-company-scraper-wrapper",
+  "title": "Sales Navigator Company Scraper Wrapper",
+  "description": "Wrapper actor that runs Sales Navigator company search scraper and returns dataset results",
+  "version": "0.0.1",
+  "buildTag": "latest",
+  "envVars": {
+    "APIFY_TOKEN": "@APIFY_TOKEN"
+  },
+  "input": "./input_schema.json"
+}
