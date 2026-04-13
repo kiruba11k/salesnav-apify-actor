@@ -1,0 +1,14 @@
+{
+  "title": "Sales Navigator Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "url": {
+      "title": "Sales Navigator URL",
+      "type": "string",
+      "description": "LinkedIn Sales Navigator company search URL",
+      "editor": "textfield"
+    }
+  },
+  "required": ["url"]
+}
